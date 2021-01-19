@@ -1,0 +1,14 @@
+C:\Users\Randel\epicodus\c#_projects\CretaceousPark.Solution\CretaceousPark\bin\Debug\netcoreapp2.2\CretaceousPark.deps.json
+C:\Users\Randel\epicodus\c#_projects\CretaceousPark.Solution\CretaceousPark\bin\Debug\netcoreapp2.2\CretaceousPark.runtimeconfig.json
+C:\Users\Randel\epicodus\c#_projects\CretaceousPark.Solution\CretaceousPark\bin\Debug\netcoreapp2.2\CretaceousPark.runtimeconfig.dev.json
+C:\Users\Randel\epicodus\c#_projects\CretaceousPark.Solution\CretaceousPark\bin\Debug\netcoreapp2.2\CretaceousPark.dll
+C:\Users\Randel\epicodus\c#_projects\CretaceousPark.Solution\CretaceousPark\bin\Debug\netcoreapp2.2\CretaceousPark.pdb
+C:\Users\Randel\epicodus\c#_projects\CretaceousPark.Solution\CretaceousPark\obj\Debug\netcoreapp2.2\CretaceousPark.csprojAssemblyReference.cache
+C:\Users\Randel\epicodus\c#_projects\CretaceousPark.Solution\CretaceousPark\obj\Debug\netcoreapp2.2\CretaceousPark.csproj.CoreCompileInputs.cache
+C:\Users\Randel\epicodus\c#_projects\CretaceousPark.Solution\CretaceousPark\obj\Debug\netcoreapp2.2\CretaceousPark.RazorAssemblyInfo.cache
+C:\Users\Randel\epicodus\c#_projects\CretaceousPark.Solution\CretaceousPark\obj\Debug\netcoreapp2.2\CretaceousPark.RazorAssemblyInfo.cs
+C:\Users\Randel\epicodus\c#_projects\CretaceousPark.Solution\CretaceousPark\obj\Debug\netcoreapp2.2\CretaceousPark.AssemblyInfoInputs.cache
+C:\Users\Randel\epicodus\c#_projects\CretaceousPark.Solution\CretaceousPark\obj\Debug\netcoreapp2.2\CretaceousPark.AssemblyInfo.cs
+C:\Users\Randel\epicodus\c#_projects\CretaceousPark.Solution\CretaceousPark\obj\Debug\netcoreapp2.2\CretaceousPark.RazorTargetAssemblyInfo.cache
+C:\Users\Randel\epicodus\c#_projects\CretaceousPark.Solution\CretaceousPark\obj\Debug\netcoreapp2.2\CretaceousPark.dll
+C:\Users\Randel\epicodus\c#_projects\CretaceousPark.Solution\CretaceousPark\obj\Debug\netcoreapp2.2\CretaceousPark.pdb
