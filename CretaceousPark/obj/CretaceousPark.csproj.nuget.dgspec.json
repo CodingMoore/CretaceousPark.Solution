@@ -60,7 +60,7 @@
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
-            "Pomelo.Entity.FrameworkCore.MySql": {
+            "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[2.2.0, )"
             }
