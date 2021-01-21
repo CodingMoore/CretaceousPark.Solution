@@ -1,0 +1,57 @@
+Pathway of the API Request:
+
+Start: 
+
+1. CretaceousClient > Views > Animals > Index.cshtml
+
+
+2. Click on "View Details" of a particular animal in the browser
+  Example Links:
+  <a href="/Animals/Details/@(animal.AnimalId)"><p>View Details</p></a>
+  ..OR..
+  @Html.ActionLink("View Details", "Details", "Animals", new {id = Model[0].AnimalId})
+                  [Name of Link] / [Route] / [Controller] / [Pass in animal ID]
+
+
+3. AnimalsController.cs > "Details" GET Route
+  a. Passes in the animal id as parameter (from "View Details" link we just clicked)
+  b. Going into Animal.cs, going to .GetDetails method and passing in ID
+
+4. Animal.cs > GetDetails method
+  a. Go to GetDetails method
+    1. pass in the AnimalId property
+    2. Go to ApiHelper class > .Get method, and pass in AnimalId property
+  
+5. ApiHelper > "Get" method (not to be confused with a GET request)
+  a. Get method passing in AnimalId property
+  b. RestClient: Make an API request to address "localhost:5000" (or from wherever)
+  c. RestRequest: Make a .GET request for "animals/{id} - This is the "endpoint"?
+  d. Creating a response "container" with client.ExecuteTaskAsync(request)
+     and dropping in the information received from "request"
+  e. returning the "Content" of the response: `response.Content`
+
+FROM THIS POINT, WE REVERSE OUR PATH...
+
+6. Back to Animal.cs, to GetDetails method
+  a. apiCallTask = "response.Content" which was the return from the Get method
+     in ApiHelper in Step 5
+  b. Turning it into Json Object, DeserializeObject by passing in "result"
+  c. return this infomration "animal" to AnimalsController >Details Route
+
+7. AnimalsController > Details Route
+  a. passing in the info recieved from Step 6 - "animal" - and assigning it
+     "animalDetails"
+  b. returning "animalDetails" to the View (the animal Details View)
+
+8. Views > Animals > Details.cshtml
+  a. Now we pass in this information to the view by:
+    "@Model.Name"
+    "@Model.Species"
+    "@Model.Age"
+    "@Model.Gender"
+
+  
+  Note: Whatever is passed into the "return View" of the Route Handler
+        will become the "Model" in the view. Therefore @Model.Name is the "Name"
+        property of the particular animal that we just made an API call on.
+

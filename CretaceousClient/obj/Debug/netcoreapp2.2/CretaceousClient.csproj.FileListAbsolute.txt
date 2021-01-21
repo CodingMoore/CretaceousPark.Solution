@@ -29,3 +29,6 @@ C:\Users\Randel\Epicodus\c#_projects\CretaceousPark.Solution\CretaceousClient\ob
 C:\Users\Randel\Epicodus\c#_projects\CretaceousPark.Solution\CretaceousClient\obj\Debug\netcoreapp2.2\CretaceousClient.pdb
 C:\Users\Randel\Epicodus\c#_projects\CretaceousPark.Solution\CretaceousClient\obj\Debug\netcoreapp2.2\CretaceousClient.csproj.CopyComplete
 C:\Users\Randel\Epicodus\c#_projects\CretaceousPark.Solution\CretaceousClient\obj\Debug\netcoreapp2.2\Razor\Views\Animals\Index.g.cshtml.cs
+C:\Users\Randel\Epicodus\c#_projects\CretaceousPark.Solution\CretaceousClient\obj\Debug\netcoreapp2.2\Razor\Views\Animals\Details.g.cshtml.cs
+C:\Users\Randel\Epicodus\c#_projects\CretaceousPark.Solution\CretaceousClient\obj\Debug\netcoreapp2.2\Razor\Views\Animals\Put.g.cshtml.cs
+C:\Users\Randel\Epicodus\c#_projects\CretaceousPark.Solution\CretaceousClient\obj\Debug\netcoreapp2.2\Razor\Views\Animals\Edit.g.cshtml.cs
