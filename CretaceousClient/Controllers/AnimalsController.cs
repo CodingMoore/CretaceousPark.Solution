@@ -38,5 +38,17 @@ namespace CretaceousClient.Controllers
         Animal.Put(animal);
         return RedirectToAction("Details", new {id = animal.AnimalId});
       }
+      public IActionResult Create()
+      {
+        return View();
+      }
+      
+      [HttpPost]
+      public IActionResult Create(Animal animal)
+      {
+        Animal.Post(animal); 
+        return RedirectToAction("Index");
+      }
+
     }
 }

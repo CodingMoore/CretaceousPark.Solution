@@ -45,7 +45,5 @@ namespace CretaceousClient.Models
       request.AddHeader("Content-Type", "application/json");
       var response = await client.ExecuteTaskAsync(request);
     }
-
-
   }
 }

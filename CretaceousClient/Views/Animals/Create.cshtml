@@ -1,0 +1,25 @@
+@model CretaceousClient.Models.Animal
+
+<h1>Create a New Animal!</h1>
+
+  @using (Html.BeginForm())
+  {
+    @Html.LabelFor(model => model.Name)
+    @Html.TextBoxFor(model => model.Name)
+    <br>
+    @Html.LabelFor(model => model.Species)
+    @Html.TextBoxFor(model => model.Species)
+
+    <br>
+    @Html.LabelFor(model => model.Age)
+    @Html.TextBoxFor(model => model.Age)
+
+    <br>
+
+    @Html.LabelFor(model => model.Gender)
+    @Html.TextBoxFor(model => model.Gender)   
+
+    <br>
+    <input type="submit" value="Add An Animal" class="btn btn-dark">
+  }
+  @Html.ActionLink("Go Home", "Index")

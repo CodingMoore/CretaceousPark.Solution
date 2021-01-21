@@ -49,6 +49,6 @@ namespace CretaceousClient.Models
     {
       var apiCallTask = ApiHelper.Delete(id);
     }
-
+    
   }
 }
