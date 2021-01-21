@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CretaceousPark.Controllers
 {
-  [Route("api/[controller]")]
+  [Route("api/[controller]")] //Declares this as an API Controller
   [ApiController]
   public class AnimalsController : ControllerBase
   {
     private CretaceousParkContext _db;
 
-    public AnimalsController(CretaceousParkContext db)
+    public AnimalsController(CretaceousParkContext db)  //Creates database
     {
       _db = db;
     }
@@ -43,7 +43,7 @@ namespace CretaceousPark.Controllers
 
     // POST api/animals
     [HttpPost]
-    public void Post([FromBody] Animal animal)
+    public void Post([FromBody] Animal animal) //Getting the animal from the body of the HTTP request
     {
       _db.Animals.Add(animal);
       _db.SaveChanges();
